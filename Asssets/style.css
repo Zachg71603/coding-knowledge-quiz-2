@@ -1,0 +1,152 @@
+*{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: lightpink;
+}
+
+header h1{
+    background-color: lightpink;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    font-size: 50px;
+    
+}
+hr{
+    color: black;
+}
+#timer{
+    float: right;
+    text-align: center;
+    justify-content: right;
+    margin-right: 10px;
+    background-color: black;
+    height: 40px;
+    width : 130px;
+    border: 2px solid lightpink;
+    position: relative;
+
+}
+#maincontainer{
+    margin : 20px auto;
+    background-color: black;
+    height: 500px;
+    width : 1000px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 40px;
+    color: lightpink;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+#quizStart{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 150px;
+    height: 75px;
+    border : 5% solid black;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    color : lightpink;
+}
+#quizStart:hover{
+    border: 3px solid lightpink;
+}
+
+#instruct{
+    color: lightpink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+    font-size: 30px;
+
+}
+
+li{
+    list-style: lower-alpha;
+    padding: 10px;
+    font-size: 35px;
+}
+li:hover{
+    cursor: pointer;
+}
+#goBack {
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    border : 5% solid lightpink;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#clear {
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    border : 5% solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#hs {
+    font-size: 50px;
+    
+    background-color: lightpink;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    font-size: 50px;
+}
+#clear:hover{
+    border: 3px solid lightpink;
+}
+#goBack:hover{
+    border: 3px solid lightpink;
+}
+a {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #maincontainer {
+      width: 75vw;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #scoreboard {
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #timer {
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #quizstart {
+        font-size: 2vw;
+        width: 20vw;
+        height: 8vw;
+    }
+  }
